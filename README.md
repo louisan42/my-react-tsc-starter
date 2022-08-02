@@ -5,7 +5,7 @@
 2. Install the dependencies with 
 2. Install the dependencies with `yarn install`
 
-## Scipts
+## Scripts
 1. Run the app in developement mode with `yarn dev`
 2. lint the code with `yarn lint`
 3. TypeScript compile the code with `yarn tsc`
