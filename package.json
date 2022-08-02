@@ -1,0 +1,44 @@
+{
+  "name": "cfta-ui",
+  "version": "1.0.0",
+  "description": "UI for comfort for the aged website",
+  "main": "index.js",
+  "repository": "https://github.com/louisan42/comfort-for-the-aged-ui",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve --mode=development",
+    "build": "webpack --mode production --progress --hide-modules",
+    "tscheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "babel-loader": "^8.2.5",
+    "core-js": "^3.24.1",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.4.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "pnp-webpack-plugin": "^1.7.0",
+    "prettier": "^2.7.1",
+    "regenerator-runtime": "^0.13.9",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
